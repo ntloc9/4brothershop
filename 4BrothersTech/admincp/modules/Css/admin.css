@@ -1,0 +1,165 @@
+/*==Style cho toàn trang web==*/
+
+body{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #f8f8f8;
+	color: black;
+}
+.container {
+	margin-top: 50px;
+  	margin-left: 270px; /* Same as the width of the sidenav */
+  	padding: 0px 10px;
+}
+
+.container-fluid {
+
+}
+#page-wrapper {
+  	padding: 0 15px;
+  	min-height: px;
+  	background-color: white;
+}
+.navbar {
+	background-color: #f8f8f8;
+}
+.navbar-brand {
+	margin-left: 20px;
+	font-size: 25px;
+	color: black;
+}
+.navbar-header a:hover {
+	color: black;
+}
+.sidebar {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 270px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow: hidden; /* Disable horizontal scroll */
+    margin-top: 63px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+}
+.sidebar a {
+	display: block;
+	padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    border-bottom: 1px solid #e7e7e7;
+}
+.sidebar .list-group-item{
+	white-space: nowrap;
+	background-color: #f8f8f8;
+	border-top: 0;
+}
+.sidebar .list-group-item:not(.collapsed) {
+    background-color: #f8f8f8;
+}
+.sidebar .list-group .list-group-item[aria-expanded="false"]::after {
+  content: " \f0d7";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 5px;
+}
+/* open state */
+.sidebar .list-group .list-group-item[aria-expanded="true"] {
+  background-color: #fff;
+}
+.sidebar .list-group .list-group-item[aria-expanded="true"]::after {
+  content: " \f0da";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 5px;
+}
+
+.no-underline:hover {
+  text-decoration: none; 
+}
+
+a{
+	color:;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+a:hover {
+	color:;
+}
+
+/*==Chia cột website==*/
+
+#container{
+	padding-left: 150px;
+	position: relative;
+	left: 0;
+	width: 100%;
+}
+
+
+/*==Content==*/
+#content{
+	padding: 2em 8em;
+	margin-left: 5em;
+	margin-right: 2em;
+}
+
+/*--.call-to-action--*/
+.call-to-action{
+	padding: 1.5em 20%;
+	background-color: #efefef;
+	border:1px solid #e8e8e8;
+}
+
+/*--.row--*/
+.row{
+	margin: 1.5em auto;
+}
+
+.row .col{
+	width: 100%;
+	margin-right: 1em;
+}
+
+.row .col:last-child{
+	float: right;
+	margin-right: 0px;
+}
+
+.row .col img{
+	float: left;
+}
+/*==Footer==*/
+#footer{
+	font-size: 85%;
+	border-top: 1px solid #e6e6e6;
+	color: #838383;
+}
+
+table {
+	font-family: arial, sans-serif;
+	width: 100%;
+}
+tr {
+
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+label {
+	font-size: 20px;
+}
+
+tr:hover {background-color: #f5f5f5;}
+
+

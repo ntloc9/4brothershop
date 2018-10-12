@@ -1,0 +1,66 @@
+
+#error {
+	color:red;
+	font-weight: bold;
+}
+
+#menu{
+	position: fixed;
+	height: 100%;
+	background-color: white;
+	width: 300px;
+	left: 0;
+
+}
+
+/*==Menu==*/
+#menu{
+	width: 300px;
+}
+#menu ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#menu ul li{
+	line-height: 2.9em;
+	height: 2.9em;
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	position: relative;
+}
+
+#menu ul li a{
+	display: inline-block;
+	color: #fff;
+	padding:0 1em;
+	border-bottom: 1px solid #333;
+}
+
+#menu ul li:hover{
+	background-color: #454545;
+}
+
+#menu .sub-menu{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 150px;
+	background-color: #191818;
+}
+
+#menu ul li:hover .sub-menu{
+	display: block;
+
+}
+
+h2 {
+	text-align: center;
+}
+#header, .content{
+	text-align: center;
+}
+
+/*--#header--*/

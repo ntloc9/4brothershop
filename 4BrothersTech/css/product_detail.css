@@ -1,0 +1,219 @@
+.row > .column {
+	margin: 8px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	overflow: auto;
+	background-color: black;
+}
+.list-inline-item{
+	text-align: center;
+}
+/* Modal Content */
+.modal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding-left:  0;
+	width: 80%;
+	max-width: 80%;
+}
+
+/* The Close Button */
+.close {
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #999;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+	display: none;
+	text-align: center;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* Caption text */
+.caption-container {
+	text-align: center;
+	background-color: black;
+	padding: 2px 16px;
+	color: white;
+}
+
+img.demo {
+	opacity: 0.6;
+}
+.active{
+	object-fit: cover;
+	width: 100%;	
+
+}
+.active,
+.demo:hover {
+	opacity: 1;
+}
+
+img.hover-shadow {
+	transition: 0.3s;
+}
+
+.hover-shadow:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row{
+	margin-left:2px;
+	margin-right:2px;
+	margin-bottom:5px;
+	padding:5px;
+	border-radius: 10px;
+	
+}
+.container-fluid > .row{
+	max-width: 100%;
+	
+}
+
+.container-fluid {
+	margin-top:20px;
+	margin-bottom:10px;
+
+
+}
+
+.btn-primary {
+	margin-right: 10px;
+}
+
+.card-body {
+	text-align: center;
+}
+
+.col-item .photo img {
+	margin: 0 auto;
+	height: 150px;
+	width: 150px;
+}
+
+.table td, .table th {
+	padding: 0.5rem;
+	text-align: left;
+
+}
+.col-item {
+	text-align: center;
+}
+.col-item .info{
+	padding: 0px;
+}
+
+.review-block{
+	background-color:#FAFAFA;
+	border:1px solid #EFEFEF;
+	padding:15px;
+	border-radius:3px;
+	margin-bottom:15px;
+}
+.review-block-name{
+	font-size:20px;
+	margin:10px 0;
+}
+.review-block-date{
+	font-size:12px;
+}
+.review-block-rate{
+	font-size:13px;
+	margin-bottom:15px;
+}
+.review-block-title{
+	font-size:20px;
+	font-weight:700;
+	margin-bottom:10px;
+}
+.review-block-description{
+	font-size:20px;
+}
+
+
+
+h5{
+	font-weight: bold;
+}
+
+.col-sm-3{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
